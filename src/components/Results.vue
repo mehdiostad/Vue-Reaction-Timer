@@ -1,5 +1,5 @@
 <template>
-  <p class="score">Your Score is {{ score[score.length - 1] }}</p>
+  <p class="score">Your Reaction Time: {{ score[score.length - 1] }}s !</p>
   <div class="rankAwsome" v-if="awsome">
     <p>{{ rank }}</p>
   </div>

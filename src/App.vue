@@ -87,4 +87,8 @@ h1 {
   border-radius: 10px;
   color: aliceblue;
 }
+button[disabled] {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
 </style>
